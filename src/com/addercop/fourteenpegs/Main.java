@@ -5,7 +5,10 @@ public class Main
 
 	public static void main(String[] args)
 	{
-		System.out.println("hi");
+		Search.search(new BoardState(0));
+		Search.search(new BoardState(1));
+		Search.search(new BoardState(3));
+		Search.search(new BoardState(4));
 	}
 
 }
